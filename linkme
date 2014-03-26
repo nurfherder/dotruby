@@ -1,0 +1,12 @@
+# Links for ruby configs
+
+# Basic Operation
+# cd ${DIR}
+# ln -s ${SRC} ${DST}
+
+#DIR:SRC:DST
+%HOME%:%HERE%/rbenv:.rbenv
+%HOME%/.rbenv:../rbenv-plugins:plugins
+%HOME%:%HERE%/bundle:.bundle
+%HOME%:%HERE%/rubocop.yml:.rubocop.yml
+
