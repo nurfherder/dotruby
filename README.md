@@ -8,18 +8,15 @@ Overall I'm using the following strategy to organize my ruby interpreters and ge
 http://dan.carley.co/blog/2012/02/07/rbenv-and-bundler/
 
 
-Prereqs:
---------
-
-Your systems default ruby interpreter and development tools (gcc, make, etc)
-
 Deploy:
 -------
 
 **Prerequisites:**
 
- * Ruby that your distro provides
- * Tools to compile ruby interpreter
+ * git
+ * linkme.sh
+ * ruby (that your distro provides)
+ * Tools to compile a ruby interpreter
 
 **Procedure:**
 
