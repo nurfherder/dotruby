@@ -1,0 +1,18 @@
+#-----------------------------------------------
+# 'links' file for dotruby project
+# See https://github.com/nurfherder/slink
+#
+# File format:
+#  SymLink_name -> Source_file
+#
+# * Ignore lines that start with '#'
+# * Ignore blank lines (all whitespace chars)
+# * Needed space surrounding delimiter ' -> '
+# * %HOME% is replaced by $HOME
+# * %RWD% this directory relative to link path
+#-----------------------------------------------
+
+%HOME%/.rbenv -> %RWD%/rbenv
+%HOME%/.rbenv/plugins -> ../rbenv-plugins
+%HOME%/.bundle -> %RWD%/bundle
+%HOME%/.rubocop.yml -> %RWD%/rubocop.yml

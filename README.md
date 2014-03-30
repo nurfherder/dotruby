@@ -14,7 +14,7 @@ Deploy:
 **Prerequisites:**
 
  * git
- * linkme.sh
+ * [slink](https://github.com/nurfherder/slink)
  * ruby (that your distro provides)
  * Tools to compile a ruby interpreter
 
@@ -28,7 +28,7 @@ Create symlinks to config files and fetch submodules:
 
     cd ~/code/dot/dotvim
     git submodule update --init
-    linkme.sh
+    slink
 
 Make sure the following lines are in your shell's config:
 
